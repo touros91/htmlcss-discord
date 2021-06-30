@@ -8,12 +8,10 @@
  /* common  */
 body {
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
 }
 
 header {
     background-color: #265EE8;
-    height: 80px;
 }
 
 .top {
@@ -28,14 +26,21 @@ header {
     clear: both;
 }
 
+/* typo  */
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
 /* logo e menu di navigazione */
 
 .logo, .accedi {
+    float: left;
     width: 20%;
 }
 
 .logo {
-    float: left;
     height: 100%;
 }
 
@@ -48,7 +53,6 @@ header {
 }
 
 .accedi {
-    float: left;
     text-align: center;
 }
 
@@ -124,3 +128,21 @@ li a{
     color: white;
     background-color: #23272A;
 }
+
+/* main  */
+
+.item1 {
+    float: left;
+    width: 65%;
+}
+
+.item1 img {
+    width: 100%;
+}
+
+.testo1 {
+    float: left;
+    width: 35%;
+    padding: 35px;
+}
+
