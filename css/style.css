@@ -154,3 +154,19 @@ section {
     padding: 35px;
 }
 
+/* quarta e ultima sezione main  */
+.testo-sezione4 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.testo-sezione4 img {
+    width: 100%;
+}
+
+.button1.button-main {
+    background-color: #96A8E3;
+    color: white;
+    margin: 30px;
+}
+
