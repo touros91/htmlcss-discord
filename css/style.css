@@ -33,6 +33,10 @@ h2 {
     margin-bottom: 30px;
 }
 
+p {
+    font-size: 15px;
+}
+
 /* logo e menu di navigazione */
 
 .logo, .accedi {
