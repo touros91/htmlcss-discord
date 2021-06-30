@@ -4,3 +4,69 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+ /* common  */
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+header {
+    background-color: #265EE8;
+    height: 80px;
+}
+
+.top {
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* logo e menu di navigazione */
+
+.logo, .accedi {
+    width: 20%;
+}
+
+.logo {
+    float: left;
+    height: 100%;
+}
+
+.menu {
+    float: left;
+    width: calc(60% - 10px);
+    margin: 0px 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+.accedi {
+    float: left;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+.accedi-button {
+    border-radius: 20px;
+    padding: 7px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #424547;
+}
