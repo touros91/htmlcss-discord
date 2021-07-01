@@ -8,6 +8,7 @@
  /* common  */
 body {
     font-family: 'Lato', sans-serif;
+    line-height: 1.5;
 }
 
 header {
@@ -16,6 +17,7 @@ header {
 
 .top {
     width: 80%;
+    max-width: 1200px;
     margin: auto;
     padding: 20px;
 }
@@ -52,14 +54,13 @@ p {
 
 .menu {
     float: left;
-    width: calc(60% - 10px);
-    margin: 0px 5px;
+    width: 60%;
     text-align: center;
     padding: 5px;
 }
 
 .accedi {
-    text-align: center;
+    text-align: right;
 }
 
 nav ul li{
