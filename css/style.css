@@ -171,6 +171,11 @@ section {
     margin: 30px;
 }
 
+.stars {
+    background-image: url("../img/stars.svg");
+    background-size: cover;
+}
+
 /* footer  */
 footer {
     background-color: #23272A;
